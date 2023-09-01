@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita barras de desplazamiento */
+}
+
+.contenedor {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+h1 {
+    font-family: 'ADLaM Display', cursive,
+     'Gluten', 'Kanit', sans-serif,'Oswald', sans-serif,
+ 'Rubik Iso', cursive;
+
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8d1414;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6d0f0f;
+}
+
+#infoClima {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(101, 152, 110, 0.9), rgba(42, 141, 154, 0.9)); /* Fondo con degradado */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex; /* Cambio a flex para mejor alineación de elementos internos */
+    flex-direction: column; /* Apila elementos verticalmente */
+    align-items: center; /* Centra elementos horizontalmente */
+    text-align: center;
+    color: #fff; /* Color de texto blanco */
+}
+
+#infoClima i {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #ffcd00; /* Color de ícono */
+}
+
+#infoClima p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilo adicional para el título dentro de #infoClima */
+#infoClima h2 {
+    font-size: 24px; /* Tamaño de fuente más grande para el título */
+    margin: 0;
+}
+
+
+#video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden; /* Asegura que el video no afecte el diseño */
+}
+
+#video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor {
+    position: relative; /* Permite ajustar la posición de los elementos dentro */
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 0 20px;
+    z-index: 1; /* Sobre el video de fondo */
+    color: #1a1c1b; /* Color del texto */   
+}
+

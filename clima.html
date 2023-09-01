@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clima.css">
+    <title>App de Clima</title>
+</head>
+<body>
+    <div id="video-container">
+        <video autoplay loop muted>
+            <source src="planeta2.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="contenedor">
+        <h1>App de Clima</h1>
+        <input type="text" id="ciudadInput" placeholder="Ingrese ciudad o pais">
+        <button id="buscarBoton">Buscar Clima</button>
+        <div id="infoClima" class="info-clima">
+            <div class="temperatura"></div>
+        </div>
+    </div>
+    <script src="clima.js"></script>
+</body>
+</html>
