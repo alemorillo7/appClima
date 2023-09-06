@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden; /* Evita barras de desplazamiento */
+    position: relative;
 }
 
 .contenedor {
@@ -11,6 +12,10 @@ body {
     margin: 50px auto;
     max-width: 600px;
     padding: 0 20px;
+    position: relative; /* Establece posición relativa para el contenedor */
+    color: #1a1c1b; /* Color del texto */   
+    background: rgba(0, 0, 0, 0.5); /* Agrega un fondo semitransparente */
+    border-radius: 10px; /* Agrega bordes redondeados */
 }
 
 h1 {
@@ -18,7 +23,7 @@ h1 {
      'Gluten', 'Kanit', sans-serif,'Oswald', sans-serif,
  'Rubik Iso', cursive;
 
-    color: #333;
+    color: #decece;
     margin-bottom: 20px;
 }
 
@@ -47,14 +52,13 @@ button:hover {
 #infoClima {
     margin-top: 20px;
     padding: 20px;
-    background: linear-gradient(to bottom, rgba(101, 152, 110, 0.9), rgba(42, 141, 154, 0.9)); /* Fondo con degradado */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex; /* Cambio a flex para mejor alineación de elementos internos */
     flex-direction: column; /* Apila elementos verticalmente */
     align-items: center; /* Centra elementos horizontalmente */
     text-align: center;
-    color: #fff; /* Color de texto blanco */
+    color: #fbfeff; /* Color de texto blanco */
 }
 
 #infoClima i {

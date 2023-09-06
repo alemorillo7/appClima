@@ -41,12 +41,13 @@ fetch(
       <p>Condición: ${condicionEnEspanol}</p>
       <p>Humedad: ${humedad}% </p>
     `;
+
+
   })
   .catch((error) => {
     console.error("Error al obtener datos del clima", error);
     infoClima.innerHTML = "<p>No se pueden obtener datos del clima.</p>";
   });
 });
-
 
 
